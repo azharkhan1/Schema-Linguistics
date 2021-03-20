@@ -151,8 +151,7 @@ margin: -160px 0 40px;
 				padding:0;
 			}
 				ul.countdown li span{
-					font-family:'Coustard', sans-serif;
-					width:100px;
+					font-family: 'Helvetica';
 					display:block;
 					font-size:48px;
 				}
@@ -167,6 +166,7 @@ margin: -160px 0 40px;
 					text-transform:capitalize;
 					margin:0;
 					padding: 0px 0 70px 0;
+					font-family: 'Vonique';
 				}
 				
 
