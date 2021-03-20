@@ -37,7 +37,7 @@ h3{
 }
 h4{
 	font-size:30px;
-	font-family: Helvetica;
+	font-family: 'Vonique';
 }
 h5{
 	font-size:24px;
@@ -124,7 +124,7 @@ z-index: 10;
 top: -13%; }
 	#header .main-head h2, #header .main-head h4{
 		font-weight:300;
-		font-family: 'Helvetica';
+		font-family: 'Vonique';
 	}
 	#header .main-head h4{
 		line-height:40px;
@@ -165,7 +165,7 @@ top: -13%; }
 					font-size: 18px;
 					text-transform:capitalize;
 					margin:0;
-					padding:15px 0 30px 0;
+					padding: 0px 0 70px 0;
 				}
 				
 
@@ -179,7 +179,7 @@ top: -13%; }
 		}
 		.main-head h2{
 			padding:0 0 20px;
-			font-family: Helvetica;
+			font-family: vonique;
 		}
 		.main-head p{
 			font-size:24px;
@@ -273,6 +273,8 @@ box-shadow: none !important; }
 	/* margin-top:40px; */
 	font-size:13px;
 	text-align:center;
+	color: black;
+	background-color: #F2F2F2;
 }
 
 #footer p {margin:10px;font-family: Helvetica;}
@@ -369,4 +371,8 @@ box-shadow: none !important; }
 	  @font-face {
 		font-family: 'Helvetica-Bold';
 		src: url('../fonts/Helvetica-Bold.tff');
+	  }
+	  @font-face {
+		font-family: 'Vonique';
+		src: url('../fonts/Vonique\ 92_D.otf');
 	  }
