@@ -182,6 +182,7 @@ margin: -160px 0 40px;
 		.main-head h2{
 			padding:0 0 20px;
 			font-family: vonique;
+			margin-top: 20px;
 		}
 		.main-head p{
 			font-size:24px;
@@ -378,7 +379,7 @@ box-shadow: none !important; }
 		font-family: 'Vonique';
 		src: url('../fonts/Vonique\ 92_D.otf');
 	  }
-	  @font-face {
+	  @font-face { 
 		font-family: 'Sofia-Pro';
 		src: url('../fonts/Sofia\ Pro\ Regular\ Az.otf');
 	  }
