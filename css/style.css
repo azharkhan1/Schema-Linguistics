@@ -76,7 +76,7 @@ h6{
 
 .hexagon:before,
 .hexagon:after {
-  content: "";
+  /* content: ""; */
   position: absolute;
   z-index: 1;
   width: 49.50px;
@@ -90,7 +90,7 @@ h6{
 }
 
 .hexagon:before {
-  top: -24.7487px;
+  /* top: -24.7487px; */
 }
 
 .hexagon:after {
@@ -134,7 +134,7 @@ top: -13%; }
 	
 	#countdown-area{
 		
-padding:40px 0;
+padding: 27px 0;
 		
 margin: -160px 0 40px;
 	}
@@ -175,6 +175,7 @@ margin: -160px 0 40px;
 	.main-head{
 		text-align:center;
 		padding:0 0 40px;
+		margin-top: -44px;
 	}
 		.main-head h2, .main-head p{
 		}
