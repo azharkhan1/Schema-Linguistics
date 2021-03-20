@@ -21,9 +21,9 @@ a:focus{
 	outline:none;
 }
 h1, h2, h3, h4, h5, h6{
-	font-family:'Coustard', sans-serif;
+	/* font-family:'Coustard', sans-serif; */
 	margin:0;
-	padding:0;
+	font-family: 'Helvetica';
 	font-weight:300;
 }
 h1{
@@ -278,7 +278,7 @@ box-shadow: none !important; }
 	background-color: #F2F2F2;
 }
 
-#footer p {margin:10px;font-family: Helvetica;}
+#footer p {margin:10px;font-family: 'Helvetica';}
 	
 	
 	/* Responsive */
