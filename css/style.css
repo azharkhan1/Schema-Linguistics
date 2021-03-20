@@ -134,8 +134,9 @@ top: -13%; }
 	
 	#countdown-area{
 		
-		padding:40px 0;
-		margin:0 0 40px;
+padding:40px 0;
+		
+margin: -160px 0 40px;
 	}
 		ul.countdown{
 			list-style:none;
