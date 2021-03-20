@@ -6,8 +6,8 @@ Tags: Dark, coming soon, under construction, black, one column
 body{
 	background:#202020;
 	color:#fff;
-	font:18px/28px 'Raleway', sans-serif;
-	font-weight:300;
+	/* font:18px/28px 'Raleway', sans-serif; */
+	/* font-weight:300; */
 }
 
 /* General  */
@@ -37,6 +37,7 @@ h3{
 }
 h4{
 	font-size:30px;
+	font-family: Helvetica;
 }
 h5{
 	font-size:24px;
@@ -62,7 +63,8 @@ h6{
 }
 	.header-overlay{
 		background:rgba(0, 0, 0, 0.6);
-		padding:30px 0;		
+		padding:30px 0;
+		font-family: Helvetica;
 	}
 	 
 .hexagon {
@@ -122,6 +124,7 @@ z-index: 10;
 top: -13%; }
 	#header .main-head h2, #header .main-head h4{
 		font-weight:300;
+		font-family: 'Helvetica';
 	}
 	#header .main-head h4{
 		line-height:40px;
@@ -176,10 +179,12 @@ top: -13%; }
 		}
 		.main-head h2{
 			padding:0 0 20px;
+			font-family: Helvetica;
 		}
 		.main-head p{
 			font-size:24px;
 			line-height:36px;
+			font-family: Helvetica;
 		}
 		
 
@@ -195,8 +200,9 @@ top: -13%; }
 
 #services p { font-size:16px; }
 	.services-overlay{
-		background:rgba(0, 0, 0, 0.9);
+		background: #f2f2f2;
 		padding:70px 0;
+		color: black;
 	}
 	#services-blocks{
 	}
@@ -224,7 +230,7 @@ top: -13%; }
 input { border: 1px solid #fff !important; -webkit-box-shadow: none !important;
 box-shadow: none !important; }
 #contact{
-	background:#05c3f9;
+	background: #4D6D9A;
 	padding:50px 0;
 }	
 .MT40 { margin-top:40px;}
@@ -264,13 +270,12 @@ box-shadow: none !important; }
 
 #footer{
 	padding:10px 0;
-	margin-top:40px;
+	/* margin-top:40px; */
 	font-size:13px;
 	text-align:center;
-	background:rgba(255,255,255,0.1)
 }
 
-#footer p {margin:10px; }
+#footer p {margin:10px;font-family: Helvetica;}
 	
 	
 	/* Responsive */
@@ -340,7 +345,7 @@ box-shadow: none !important; }
 	display:block;
 	}
 	#socialIcons ul {
-	margin: 0px; 
+	margin: 0px;
 	padding:0px;
 	text-align: center;
 	}
@@ -350,10 +355,18 @@ box-shadow: none !important; }
 	line-height: 40px;
 	list-style-type: none;
 	display: inline-block;
-	padding: 5px;
+	padding: 0 7px 0 25px;
 	}
 	#socialIcons ul li a{
 	width:34px;
 	height:34px; 
 	display: inline-block;
 	}
+	@font-face {
+		font-family: 'Helvetica';
+		src: url('../fonts/Helvetica.tff');
+	  }
+	  @font-face {
+		font-family: 'Helvetica-Bold';
+		src: url('../fonts/Helvetica-Bold.tff');
+	  }
